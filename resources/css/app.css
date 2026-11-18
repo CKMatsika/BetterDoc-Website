@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0F172A;
+  --color-bg: #F7F8FA;
+  --color-card: #FFFFFF;
+  --color-border: #E2E8F0;
+  --color-green: #0E7C66;
+  --color-green-hover: #0A6552;
+  --color-green-light: #DDF3EC;
+  --color-amber: #F59E0B;
+  --radius-card: 14px;
+  --max-w-site: 1180px;
+}
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+body { font-family: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif; }
